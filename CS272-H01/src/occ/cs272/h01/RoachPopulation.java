@@ -16,25 +16,25 @@ public class RoachPopulation
     public static final String ASSIGNMENT = "H01-A";
 
     // TODO: Complete the RoachPopulation class
-    private int roachCount;
+    private int population;
 
     public RoachPopulation(int r)
     {        
-        roachCount = r;
+        population = r;
     }
     
-    public void bred()
+    public void breed()
     {
-        roachCount *= 2;
+        population *= 2;
     }
     public void spray()
     {
-        roachCount -= (int)(roachCount * 0.10);
+        population -= (int)(population * 0.10);
     }
 
     public int getRoaches()
     {
-        return roachCount;
+        return population;
     }
 
     
