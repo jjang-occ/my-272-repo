@@ -8,6 +8,8 @@ public class MyNewTestProgram
         System.out.println("Hi");
         
         System.out.println("There");
+        
+        System.out.println("Mister");
     }
 
 }
