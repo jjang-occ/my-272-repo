@@ -30,24 +30,35 @@ public class Sequence
     
     public Sequence slice(int start)
     {
-        int[] a = new int[1];
+        int s = (start < 0) ? start + array.length : start; 
+        int n = array.length - s;
+        int[] a = new int[n];
+        for (int i = 0; i < n; ++i)
+            a[i] = array[s + i];
         return new Sequence(a);
     }
+    
     public Sequence slice(int start, int end)
     {
-        int[] a = new int[1];
+        int s = (start < 0) ? start + array.length : start;
+        int e = (end < 0) ? end + array.length : end;
+        int n = e - s;
+        int[] a = new int[n];
+        for (int i = 0; i < n; ++i)
+            a[i] = array[s + i];
         return new Sequence(a);
     }
-
+    
     public Sequence slice(int start, int end, int step)
     {
-        int[] a = new int[1];
+        int s = (start < 0) ? start + array.length : start;
+        int e = (end < 0) ? end + array.length : end;
+        int n = e - s;
+        int[] a = new int[n / Math.abs(step)];
+        for (int i = 0; i < n; i += step)
+            a[i] = array[s + i];
         return new Sequence(a);
     }
-
-
-    
-    
     
     
     @Override
