@@ -28,7 +28,24 @@ public class Sequence
     
     // TODO: Write the three versions of slice() here
     
-    
+    public Sequence slice(int start)
+    {
+        int[] a = new int[1];
+        return new Sequence(a);
+    }
+    public Sequence slice(int start, int end)
+    {
+        int[] a = new int[1];
+        return new Sequence(a);
+    }
+
+    public Sequence slice(int start, int end, int step)
+    {
+        int[] a = new int[1];
+        return new Sequence(a);
+    }
+
+
     
     
     
