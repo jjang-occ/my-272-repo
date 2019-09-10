@@ -1,4 +1,6 @@
-
+/**
+ * @author JJ
+ */
 public class MyNewTestProgram
 {
 
