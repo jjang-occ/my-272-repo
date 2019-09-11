@@ -1,4 +1,7 @@
-
+/**
+ * @author JJ
+ * @version 9/9/2019
+ */
 public class MyNewTestProgram
 {
 
