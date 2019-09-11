@@ -1,4 +1,4 @@
-package occ.cs272.h02c;
+package occ.cs272.h02b;
 
 public class LabeledPointTester {
 
