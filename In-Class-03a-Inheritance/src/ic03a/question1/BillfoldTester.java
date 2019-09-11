@@ -7,6 +7,17 @@ public class BillfoldTester
     {
         // TODO Auto-generated method stub
         DriverLicense d = new DriverLicense("John Doe", 2007);
+        CallingCard c = new CallingCard("Omega Card", "0123456789", "1234");
+        
+        BillFold b = new BillFold();
+        
+        b.addCard(d);
+        b.addCard(c);
+        
+        System.out.println(b.formatCards());
+        
+        
+        
         
 
     }
