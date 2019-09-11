@@ -1,5 +1,6 @@
 package occ.cs272.h02b;
 
+// http://codecheck.it/files?repo=bj4cc&problem=ch10/c10_exp_10_103
 //TODO: implement toString
 
 public class LabeledPoint
