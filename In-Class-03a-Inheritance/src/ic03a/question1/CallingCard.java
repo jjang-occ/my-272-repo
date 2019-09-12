@@ -12,5 +12,11 @@ public class CallingCard extends Card
         this.pin = pin;
     }
     
+    public boolean equals(Object otherObject)
+    {
+        CallingCard other = (CallingCard) otherObject;
+        return this.getName() == other.getName() && this.cardNumber == other.cardNumber && this.pin == other.pin;
+    }
+    
     
 }
