@@ -6,8 +6,12 @@ public class AnimalRunner
 {
     public static void main(String[] args)
     {
-        ArrayList<Dog> dogcatList = new ArrayList<Dog>();
+        ArrayList<Speakable> dogcatList = new ArrayList<Speakable>();
         dogcatList.add(new Dog("Fred"));
-        // dogcatList.add(new Cat("Wanda"));
+        dogcatList.add(new Cat("Wanda"));        
+        for (Speakable obj : dogcatList)
+        {
+            obj.speak();
+        }
     }
 }

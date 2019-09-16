@@ -1,6 +1,6 @@
 package ic03b.question3;
 
-public class Cat
+public class Cat implements Speakable
 {
     private String name;
 
